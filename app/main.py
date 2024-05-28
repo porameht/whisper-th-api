@@ -12,6 +12,7 @@ headers = {
     "Content-Type": "audio/flac"
 }
 
+
 few_shot = FewShotLearning(model_name="gpt-3.5-turbo")
 
 def query(audio_file):
